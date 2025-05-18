@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONT CINZEL DECORATIVE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <!-- FIM FONT -->
+
+    <!-- FONT ROBOTO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- FIM FONT -->
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- FIM BOOTSTRAP -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- FIM CSS -->
+
+    <!-- SCRIPT -->
+    <script src="js/script.js" defer></script>
+    <!-- FIM SCRIPT -->
+
+    <title>Felipe Tattoo</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-bar">
+                <li><a href="#sobre-min">Sobre</a></li>
+                <li><a href="#galeria-tatuagem">Galeria</a></li>
+                <li><a href="#depoimentos-de-clientes">Depoimento</a></li>
+                <a href="#inicio-site">
+                    <h1>Luiz Felipe<br>Studio Tattoo</h1>
+                </a>
+                <li><a href="#nosso-endereco">Endereço</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <a href="#" id="btn-contato">ENTRE EM CONTATO</a>
+                <div class="abrir-menu"><i class="bi bi-list"></i></div>
+            </ul>
+        </nav>
+
+        <!-- MENU RESPONSIVEL -->
+        <div class="container-menu">
+            <nav>
+                <div class="menu-fechar"><i class="bi bi-x-lg"></i></div>
+                <ul class="nav-menu">
+                    <li><a href="#sobre-min">Sobre</a></li>
+                    <li><a href="#galeria-tatuagem">Galeria</a></li>
+                    <li><a href="#depoimentos-de-clientes">Depoimento</a></li>
+                    <li><a href="#nosso-endereco">Endereço</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- INICIO -->
+    <section id="inicio-site" class="inicio">
+        <div class="background-video">
+            <video src="video/fundo-video.mp4" autoplay loop muted></video>
+        </div>
+        <div class="texto-inicio">
+            <h1>Luiz Felipe<br>Studio Tattoo</h1>
+            <a href="#" id="btn-contato">ENTRE EM CONTATO</a>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre-min" class="sobre">
+        <div class="background-img">
+            <div class="container-sobre">
+                <div class="box-img">
+                    <img src="img/sobre.webp" alt="sobre">
+                </div>
+                <div class="texto-sobre">
+                    <h2>TATUAGEM EM <br>QUALIDADE PREMIUM</br></h2>
+                    <p><span>ESTILO: FINE LINE E BLACKWORK</span></p>
+                    <p>"Como tatuador, transformo ideias e sentimentos em arte permanente. Cada tatuagem é uma expressão
+                        única, e meu objetivo é criar um trabalho que seja significativo e especial para quem escolhe me
+                        confiar sua pele como tela."</p>
+                    <a href="#" id="btn-contato">ENTRE EM CONTATO</a>
+                </div>
+            </div>
+
+            <div class="container-servico">
+                <h2>SERVIÇOS</h2>
+                <p>Nosso estúdio de tatuagem é especializado em tatuagens de alta qualidade e durabilidade. Eu trabalho
+                    com alta responsabilidade e competência deixando assim o cliente satisfeito.</p>
+                <div class="container-estilo">
+                    <div class="box-estilo">
+                        <div class="box-img">
+                            <img src="img/máquina-de-tatuagem.png" alt="máquina-de-tatuagem">
+                            <p><span>FINE LINE</span></p>
+                            <p>Fine line é um estilo de tatuagem com traços finos.</p>
+                        </div>
+
+                        <div class="box-img">
+                            <img src="img/tatuagem.png" alt="tatuagem">
+                            <p><span>BLACKWORK</span></p>
+                            <p>Blackwork é um estilo artístico com tatuagens e bordados pretos.</p>
+                        </div>
+
+                        <div class="box-img">
+                            <img src="img/leao.png" alt="leao">
+                            <p><span>REALISMO</span></p>
+                            <p>Realismo reproduz imagens fielmente na pele, com arte detalhada.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria-tatuagem" class="galeria">
+        <h2>GALERIA DE TATUAGENS</h2>
+        <p>Aqui você ver o profissionalismo, cuidado e alta qualidade do nosso trabalho</p>
+        <div class="container-galeria">
+            <div class="box-fotos">
+                <img src="img-galeria/ft01.webp" class="elemento-1" alt="01">
+                <img src="img-galeria/ft02.webp" alt="02">
+                <img src="img-galeria/ft03.webp" alt="03">
+                <img src="img-galeria/ft04.webp" alt="04">
+                <img src="img-galeria/ft05.webp" alt="05">
+                <img src="img-galeria/ft06.webp" alt="06">
+                <img src="img-galeria/ft07.webp" alt="07">
+            </div>
+        </div>
+        <a href="section-galeria-fotos/fotos.html" id="btn-contato">ACESSE AQUI A GALERIA</a>
+    </section>
+
+    <!-- DEPOIMENTO -->
+    <section id="depoimentos-de-clientes" class="depoimento">
+        <div class="border-depoimento"></div>
+        <h2>FEEDBACK DE NOSSOS CLIENTES</h2>
+        <div class="slider">
+            <div class="container-depoimento">
+                <div class="box-depoimento">
+                    <p>"Você tem a mão leve e muito talento. Amei cada detalhe, deu pra ver o cuidado em cada traço."
+                    </p>
+                </div>
+                <div class="box-depoimento">
+                    <p>"Foi minha primeira tattoo e você me passou muita confiança. Obrigado por tornar a experiência
+                        tão
+                        tranquila!"</p>
+                </div>
+                <div class="box-depoimento">
+                    <p>"Admiro seu profissionalismo e seu olhar artístico. A tattoo cicatrizou super bem e ficou linda
+                        demais!"</p>
+                </div>
+                <div class="box-depoimento">
+                    <p>"Você mandou muito bem! O traço ficou fino e exatamente como eu queria. Obrigado pela atenção e
+                        cuidado."</p>
+                </div>
+                <div class="box-depoimento">
+                    <p>"Você conseguiu transformar minha ideia em algo ainda melhor. Ficou incrível, de verdade.
+                        Parabéns
+                        pelo talento!"</p>
+                </div>
+                <div class="box-depoimento">
+                    <p>"Sua paciência e o capricho fizeram toda a diferença. A tattoo no antebraço ficou perfeita!"</p>
+                </div>
+            </div>
+        </div>
+        <div class="arrow-depoimento">
+            <button class="prev"><i class="bi bi-arrow-left"></i></button>
+            <button class="next"><i class="bi bi-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- ENDEREÇO -->
+    <section id="nosso-endereco" class="endereco">
+        <div class="container-mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7922.898212150969!2d-38.263689!3d-6.836635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7a443d9e3b32ca7%3A0x71166c313fdc35aa!2sN%C3%9ACLEO%20HABITACIONAL%202!5e0!3m2!1spt-BR!2sbr!4v1745271385888!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <footer id="contato" class="contato">
+        <div class="background-orcamento">
+            <p>Duvidas & Orçamentos</p>
+            <div class="btn">
+                <a href="https://api.whatsapp.com/send/?phone=%2B5583993307939&text&type=phone_number&app_absent=0"
+                    target="_blank" id="btn-contato">ENTRE EM CONTATO</a>
+            </div>
+        </div>
+        <div class="background-social">
+            <div class="social-box">
+                <a href="https://www.instagram.com/felipetattoo83/" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+            <p>@FELIPETATTOO83</p>
+        </div>
+        <div class="container-footer">
+            <div class="localizacao">
+                <p>Nossa Localização:</p>
+                <p><i class="bi bi-house-fill"></i>Sousa-PB</p>
+                <p><i class="bi bi-geo-alt-fill"></i>Núcleo Habitacional II</p>
+                <p><i class="bi bi-search"></i>CEP 58814-500</p>
+            </div>
+            <div class="logo-footer">
+                <h1>Luiz Felipe<br>Studio Tattoo</h1>
+            </div>
+            <div class="forma-pagamento">
+                <p>Formas de pagamentos:</p>
+                <div class="img-pagamento">
+                    <img src="img/pix.png" alt="pix">
+                    <img src="img/cartao.png" alt="cartao">
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RESPONSIVEL -->
+        <div class="forma-pagamento-responsivel">
+            <p>Formas de pagamentos:</p>
+            <div class="img-pagamento-responsivel">
+                <img src="img/pix.png" alt="pix">
+                <img src="img/cartao.png" alt="cartao">
+            </div>
+        </div>
+
+        <div class="borda"></div>
+        <p>Felipe Tattoo.&copy;Todos os Direitos Reservados</p>
+    </footer>
+</body>
+
+</html>
