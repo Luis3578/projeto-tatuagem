@@ -173,6 +173,10 @@
         padding-top: 3rem;
     }
 
+    .galeria #btn-contato {
+        margin-left: 0;
+    }
+
     .galeria>p {
         width: 300px;
     }
@@ -223,6 +227,10 @@
 
     .contato {
         width: 100%;
+    }
+
+    .contato .background-orcamento .btn #btn-contato{
+        margin-left: 0;
     }
 
     .contato .container-footer {
